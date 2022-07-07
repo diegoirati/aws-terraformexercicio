@@ -46,7 +46,7 @@ resource "aws_instance" "ambiente2maquina0" {
     instance_type = "t2.micro"
     key_name = "terraform-aws"
     tags = {
-      Name = "ambiente1maquina1"
+      Name = "ambiente2maquina0"
     }
     depends_on = [
         docker_container.openjdk
